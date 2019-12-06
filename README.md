@@ -4,6 +4,8 @@ A Java library for parsing and comparing [semantic versions](https://semver.org/
 
 [![Actions Status](https://github.com/gravitation1/semanticversion/workflows/Java%20CI/badge.svg)](https://github.com/gravitation1/semanticversion/actions)
 
+[![codecov](https://codecov.io/gh/gravitation1/semanticversion/branch/master/graph/badge.svg)](https://codecov.io/gh/gravitation1/semanticversion)
+
 [Packages can be found on GitHub](https://github.com/gravitation1/semanticversion/packages/)
 
 ## Usage

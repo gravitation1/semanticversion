@@ -11,6 +11,8 @@ import java.util.stream.Collectors;
 
 public class SemanticVersion implements Comparable<SemanticVersion>
 {
+	// The version of semantic versioning that this class implements. See
+	// https://semver.org/spec/v2.0.0.html for details.
 	public static final SemanticVersion SEMANTIC_VERSION_VERSION;
 
 	private static final String SEPARATOR;

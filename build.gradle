@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id 'maven-publish'
+    id 'jacoco'
 }
 
 repositories {
@@ -29,6 +30,12 @@ publishing {
                 password = System.getenv('GITHUB_TOKEN')
             }
         }
+    }
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled = true
     }
 }
 
